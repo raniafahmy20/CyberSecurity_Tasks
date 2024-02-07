@@ -10,7 +10,6 @@ $_SESSION['user']=$x.$y;
 $_SESSION['Email']=$z;
 $_SESSION['age']=$a;
 
-var_dump(filter_input(INPUT_POST,$a,FILTER_VALIDATE_INT));
 
 if(isset($_SESSION['user'])&&isset($_SESSION['Email'])&&isset($_SESSION['age']))
 { 
